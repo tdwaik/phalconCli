@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "28e52787256b046b33204e893e4bc1cb",
+    "content-hash": "15cbc9dfbc26e7d06e24eb83ca4de34d",
+    "packages": [
+        {
+            "name": "Libs/AMQ",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdwaik/php_stomp_activeMQ.git",
+                "reference": "4a659cf764053d6634449561bd828fcbc9424f33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdwaik/php_stomp_activeMQ/zipball/4a659cf764053d6634449561bd828fcbc9424f33",
+                "reference": "4a659cf764053d6634449561bd828fcbc9424f33",
+                "shasum": ""
+            },
+            "type": "library",
+            "authors": [
+                {
+                    "name": "Thaer Aldwaik",
+                    "email": "t_dwaik@hotmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/tdwaik/php_stomp_activeMQ/tree/master",
+                "issues": "https://github.com/tdwaik/php_stomp_activeMQ/issues"
+            },
+            "time": "2015-12-17 09:06:23"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

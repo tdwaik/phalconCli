@@ -1,0 +1,24 @@
+{
+    "name": "App/Cli",
+    "authors": [
+        {
+            "name": "Thaer Aldwaik",
+            "email": "t_dwaik@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\Cli\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:tdwaik/php_stomp_activeMQ.git"
+        }
+    ],
+    "require": {
+        "libs/amq": "*"
+    },
+    "minimum-stability": "dev"
+}
