@@ -1,5 +1,5 @@
 <?php
-namespace App\Cli;
+namespace PhalconCli\Cli;
 
 /**
  * @author Thaer AlDwaik <t_dwaik@hotmail.com>
@@ -11,12 +11,12 @@ use Phalcon\Config as PhConfig;
 use Phalcon\CLI\Console as ConsoleApp;
 use Phalcon\Logger\Adapter\File as PhLog;
 use Phalcon\Security as PhSecurity;
-use \Libs\AMQ as AMQ;
+use Libs\AMQ as AMQ;
 
 
 /**
  * Class CliBootstrap
- * @package App\Cli
+ * @package PhalconCli\Cli
  */
 class CliBootstrap {
 

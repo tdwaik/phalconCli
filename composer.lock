@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "28e52787256b046b33204e893e4bc1cb",
-    "content-hash": "15cbc9dfbc26e7d06e24eb83ca4de34d",
+    "hash": "4598b897cf2969215183eb7069a2f997",
+    "content-hash": "f95fdd75519084f12e5e5b32a54f029c",
     "packages": [
         {
             "name": "Libs/AMQ",

@@ -1,5 +1,5 @@
 <?php
-namespace App\Cli;
+namespace PhalconCli\Cli;
 /**
  * @author Thaer AlDwaik <t_dwaik@hotmail.com>
  * @date December 3, 2015
@@ -8,7 +8,7 @@ namespace App\Cli;
 
 /**
  * Class CliApp
- * @package App\Cli
+ * @package PhalconCli\Cli
  */
 class CliApp {
 

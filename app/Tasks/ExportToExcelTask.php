@@ -1,5 +1,5 @@
 <?php
-namespace App\Cli\Tasks;
+namespace PhalconCli\Cli\Tasks;
 
 /**
  * @author Thaer AlDwaik <t_dwaik@hotmail.com>
@@ -7,11 +7,11 @@ namespace App\Cli\Tasks;
  *
  */
 
-use App\Cli\CliTask as CliTask;
+use PhalconCli\Cli\CliTask as CliTask;
 
 /**
  * Class ExportToExcelTask
- * @package App\Cli\Tasks
+ * @package PhalconCli\Cli\Tasks
  */
 class ExportToExcelTask extends CliTask {
 

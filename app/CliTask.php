@@ -1,5 +1,5 @@
 <?php
-namespace App\Cli;
+namespace PhalconCli\Cli;
 
 /**
  * @author Thaer AlDwaik <t_dwaik@hotmail.com>
@@ -9,7 +9,7 @@ namespace App\Cli;
 
 /**
  * Class CliTask
- * @package App\Cli
+ * @package PhalconCli\Cli
  */
 abstract class CliTask extends \Phalcon\CLI\Task {
 

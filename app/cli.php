@@ -1,5 +1,5 @@
 <?php
-namespace App\Cli;
+namespace PhalconCli\Cli;
 
 /**
  * @author Thaer AlDwaik <t_dwaik@hotmail.com>
@@ -25,7 +25,7 @@ $task = array_key_exists(1, $argv)? $argv[1] : null;
 $force = array_key_exists('force', $options) || array_key_exists('f', $options)? true : false;
 
 $arguments = array();
-$arguments['task'] = ($task !== null)? 'App\\Cli\\Tasks\\' . $task : null;
+$arguments['task'] = ($task !== null)? 'PhalconCli\\Cli\\Tasks\\' . $task : null;
 $arguments['action'] = 'run';
 $arguments['params'] = (object) $options;
 
